@@ -10,7 +10,7 @@ const Home = () => {
     if (element) {
       init(element, {
         showCursor: true,
-        strings: ["Name", "React Developer", "Frontend Developer"],
+        strings: ["Sabirun shaik", "React Developer", "Frontend Developer"],
       });
     }
   }, []);
