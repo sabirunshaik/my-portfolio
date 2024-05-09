@@ -21,7 +21,7 @@ const Projects = () => {
       <h2 className="text-4xl font-bold mb-4 underline text-center">MY PROJECTS</h2>
       <ul>
         {dummyProjects.map((project) => (
-          <li key={project.id} className="mb-2 border rounded-md bg-blue-300 flex flex-col px-5 md:flex-row items-center gap-1 py-3">
+          <li key={project.id} className="mb-2 border rounded-md bg-blue-300 flex flex-col px-5 md:flex-row items-center justify-between  gap-1 py-3">
             <div className='flex flex-col justify-between items-start  gap-4 md:w-[60%] w-full my-3'>
             <h1 className="text-2xl font-bold underline ">{project.title}</h1>
             <p className="text-xl font-semibold">{project.description}</p>
