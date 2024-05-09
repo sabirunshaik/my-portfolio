@@ -22,10 +22,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
+    <div className=" p-4  md:w-[35rem] border m-auto my-7 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl w-full">
       <h2 className="text-2xl font-bold mb-4">Contact Me</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="mb-4">
+      <form  onSubmit={handleSubmit}>
+        <div className="mb-4  ">
           <label htmlFor="name" className="block text-sm font-medium text-gray-700">
             Name
           </label>
