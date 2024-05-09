@@ -22,7 +22,7 @@ const Projects = () => {
       <ul>
         {dummyProjects.map((project) => (
           <li key={project.id} className="mb-2 border rounded-md bg-blue-300 flex flex-col px-5 md:flex-row items-center gap-1 py-3">
-            <div className='flex flex-col justify-center items-start  gap-4 md:w-[60%] w-full my-3'>
+            <div className='flex flex-col justify-between items-start  gap-4 md:w-[60%] w-full my-3'>
             <h1 className="text-2xl font-bold underline ">{project.title}</h1>
             <p className="text-xl font-semibold">{project.description}</p>
             <button className='border p-3 px-6 text-white bg-gradient-to-r from-purple-500 to-pink-500 font-bold '> <a href={project.btn} target='_blank' >SEE MORE</a></button>
